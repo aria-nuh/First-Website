@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="icon" href="%PUBLIC_URL%/favicon.ico"/>
+        <meta name="viewport"contenct="width-device-width,initial-scale=1"/>
+        <title>Web Pertama</title>
+        <link rel="stylesheet" href="../CSS/style.css"/>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+            <img src="../image/hello2.png" alt="logo" class="logo-img" />
+        <h1 class="Logo-tittle">Hello There!</h1>
+            </div>
+        <nav>
+            <ul>
+                <li><a href="#jasa">JASA</a></li>
+                <li><a href="mailto:arianuhgroho5@gmail.com">KONTAK  </a></li>
+            </ul>
+        </nav>
+        <button class="ngopi" onclick="redirInstagram()">Follow Saya</button>
+        </header>
+        <div class="container">
+            <div class="intro">
+                <p class="tittle">Hello, Aria Nuhgroho Here!</p>
+                <p class="description">Informatic Student</p>
+                <img src="../image/gue.jpg" alt="Aria"class="img-foto"/>
+            </div>
+        </div>
+        <div class="parallax">
+            <div class="tentang">
+                <p class="tittle">Saya bertekad menjadi Programmer</p>
+                <p class="description">Practice makes Perfect!</p>
+            <div class="mt-10">
+                <button class="ngopi" onclick="redirWhatsapp()">Mari Kerja sama</button>
+            </div>
+        </div>
+        <div class="container">
+             <div class="card" id="jasa">
+                <div class="card-item">
+                    <img src="../image/world.jpg" alt="icon 1" class="icon"/>
+                    <p class="card-tittle">Mata selalu kuat akan Komputer</p>
+                    <p class="card-description">Di Let's go in aja!</p>
+                 </div>
+                 <div class="card-item">
+                    <img src="../image/game.jpg" alt="icon 2" class="icon"/>
+                    <p class="card-tittle">Suka ngegame dan ngoding</p>
+                    <p class="card-description">Siap ngoding everywhere!</p>
+                </div>
+                <div class="card-item">
+                    <img src="../image/future.jpg" alt="icon 3" class="icon"/>
+                    <p class="card-tittle">1000 Viewers</p>
+                    <p class="card-description">Antum bayar ane,ente Puas Brother!</p>
+                   </div>
+                </div>
+             </div>
+        </div>
+        <footer> 
+            <p class="tittle">&copy Aria Nuhgroho Website 2023</p>
+        </footer>
+        <script>
+            function redirInstagram() {
+                window.location.href ="https://instagram.com/arianuh7"
+            }
+
+            function redirWhatsapp() {
+                window.location.href ="https://wa.me/+6289665714086"
+            }
+        </script>
+    </body>
+</html>
