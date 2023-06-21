@@ -1,0 +1,51 @@
+.container {
+    margin: 5rem 10rem;
+    background-color: #eee;
+    padding: 0 3rem;
+  }
+  
+  .container h1 {
+    padding-top: 2rem;
+    font-size: 4rem;
+    text-align: center;
+  }
+  
+  
+  .cf {
+    padding-bottom: 2rem;
+  }
+  
+  label {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 0.5rem;
+  }
+  
+  input {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40rem;
+    padding-bottom: 7rem;
+   
+  }
+  
+  button {
+    margin: 1rem 0rem;
+    padding: 0.5rem 1rem;
+  }
+  
+  .rumus {
+    padding-bottom: 5rem;
+  }
+  
+  .rumus h2 {
+    font-weight: bold;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid grey;
+  }
+  
+  .rumus p span {
+    font-style: italic;
+    font-weight: bold;
+  }
