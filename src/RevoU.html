@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RevoU</title>
+
+    <!-- LINK KE CSS -->
+    <!-- ================== -->
+    <link rel="stylesheet" href="../CSS/RevoU.css">
+    <!-- ================== -->
+
+</head>
+<body>
+    
+    <section class="container">
+        <h1>Kalkulator Suhu</h1>
+        <p>Masukan suhu derajat Celcius (°C) ke bawah, lalu klik tombol konversi untuk mendapatkan hasil konversi kedalam bentuk fahrenheut (°F).</p>
+        <div class="cf">
+            <label for="Celcius">Celcius (°C)</label>
+            <input type="text" id="celcius" class='celcius'>
+            <button type="submit" class="submit-button">submit</button>
+            <button type="reset" class="reset-button">Reset</button>
+            <button class="reverse-button">Reverse</button>
+        </div>
+
+        <div class="cf">
+            <label for="Celcius">Fahrenheit (°F)</label>
+            <input type="text" id="fahrenheit" class="fahrenheit">
+        </div>
+
+        <div class="cf">
+            <label for="Cara Kalkulasi :">Cara Kalkulasi :</label>
+            <input type="text" id="cara-kalkulasi" class="cara-kalkulasi">
+        </div>
+
+        <div class="rumus">
+            <h2>Cara Konversi Dari Celcius (°C) ke Fahrenheit (°F) </h2>
+            <p>Suhu <span>S</span> derajat Fahrenheit (°F) sama dengan suhu <span>S</span> dalam derajat Celcius (°C) kali 9/5 tambah 32. </p>
+            <p>S<sub>(°F)</sub> = (S<sub>(°C)</sub> x 9/5) + 32</p>
+            <p>atau</p>
+            <p>S<sub>(°F)</sub> = (S<sub>(°C)</sub> x 1.8) + 32</p>
+        </div>
+
+
+    </section>
+
+    
+
+
+
+    <script src="../JS/RevoU.js"></script>
+</body>
+</html>
